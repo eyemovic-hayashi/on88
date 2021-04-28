@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  border: 1px solid;
+  &_menu-items {
+    border: solid 1px;
+    background-color: rgba(118, 248, 198, 0.562);
+    & ul {
+      display: flex;
+      color: white;
+    }
+  }
+  &_address {
+    border-bottom: solid 5px rgba(118, 248, 198, 0.562);
+    display: flex;
+    justify-content: flex-end;
+    & p {
+      margin-left: 25px;
+    }
+  }
+  &_bottom {
+    text-align: center;
+  }
+}
