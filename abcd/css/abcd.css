@@ -1,7 +1,19 @@
 /* ヘッダー部分 */
 header {
-  background-color: aqua;
   height: 7vh;
+  display: flex;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: red;
+  width: 50%;
+}
+
+.navbar-wrapper {
+  background-color: blue;
+  width: 50%;
 }
 
 /* ヘッダー部分ここまで */
