@@ -72,6 +72,7 @@ header {
 }
 /* スライダー部分ここまで */
 
+
 /* お知らせ部分 */
 .notice-wrapper {
   height: 40vh;
@@ -80,15 +81,60 @@ header {
 
 .notice-heading {
   height: 20%;
-  background-color: blue;
-  
+  padding: 7.5vh 0;
+  font-size: 20px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.notice-container-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
 .notice-container {
   height: 80%;
-  background-color: yellow;
+  width: 80vw;
+  border-top: solid 5px #008BBB;
+  overflow: scroll;
+}
+
+.notice-item {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px dotted gray;
+
+  display: flex;
+  align-items: center;
+}
+
+.notice-date {
+  margin-right: 1%;
+}
+
+.notice-category {
+  width: 7%;
+  padding: 3px 0;
+  margin-right: 2%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.category-news {
+  background-color: #008BBB;
+}
+
+.category-product {
+  background-color: #FF6928;
+}
+
+.notice-content {
+  width: 75%;
+  text-decoration-line: underline;
+  text-decoration-color: lightgrey;
+  text-decoration-thickness: 2.5px;
 }
 /* お知らせ部分ここまで */
