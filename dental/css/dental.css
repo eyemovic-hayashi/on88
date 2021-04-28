@@ -1,3 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
 .footer {
   border: 1px solid;
+}
+.footer_menu-items {
+  border: solid 1px;
+  background-color: rgba(118, 248, 198, 0.562);
+}
+.footer_menu-items ul {
+  display: flex;
+  color: white;
+}
+.footer_address {
+  border-bottom: solid 5px rgba(118, 248, 198, 0.562);
+  display: flex;
+  justify-content: flex-end;
+}
+.footer_address p {
+  margin-left: 25px;
+}
+.footer_bottom {
+  text-align: center;
 }
