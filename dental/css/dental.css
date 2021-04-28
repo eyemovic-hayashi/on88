@@ -6,6 +6,22 @@ li {
   list-style: none;
 }
 
+.aaa {
+  display: flex;
+}
+
+.side-bar {
+  background-color: aqua;
+  width: 30%;
+  height: 1000px;
+}
+
+.main-container {
+  background-color: rosybrown;
+  width: 70%;
+  height: 1000px;
+}
+
 .footer {
   border: 1px solid;
 }
