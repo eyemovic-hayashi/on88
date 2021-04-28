@@ -8,6 +8,9 @@
 <!-- css読み込み -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/abcd.css">
+<!-- swiper slider読み込み -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 </head>
 <body>
     <header>
@@ -23,6 +26,36 @@
         </ul>
       </div>
     </header>
-    <div class="slider-wrapper"></div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/61JQ8UaCTEL._AC_SX466_.jpg"></div>
+        <div class="swiper-slide"><img src="https://s.skygate.co.jp/sp/sa_city/oversea/images/pw/pw_img_k04_01.jpg"></div>
+        <div class="swiper-slide"><img src="https://media-assets.aumo.jp/uploads/photo/upload_photo/data/237387/large_99d22f66-fa64-44cc-8747-7159844d6638.jpeg"></div> -->
+        <div class="swiper-slide">Visual01</div>
+        <div class="swiper-slide">Visual02</div>
+        <div class="swiper-slide">Visual03</div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        cssMode: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination'
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
 </body>
 </html>

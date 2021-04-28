@@ -50,9 +50,24 @@ header {
 
 
 /* スライダー部分 */
-.slider-wrapper {
+/* .slider-wrapper {
   background-color: blueviolet;
   height: 50vh;
   width: 100vw;
+} */
+
+.swiper-container {
+  background-color: #008BBB;
+  height: 50vh;
+  width: 100vw;
+}
+
+.swiper-slide {
+  /* height: 100%;
+  width: 100%; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* スライダー部分ここまで */
