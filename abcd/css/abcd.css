@@ -1,6 +1,7 @@
 /* ヘッダー部分 */
 header {
   height: 7vh;
+  width: 100vw;
   display: flex;
 }
 
@@ -8,15 +9,41 @@ header {
   font-weight: bold;
   font-size: 25px;
   width: 50%;
-  padding-left: 5%;
 
   display: flex;
   align-items: center;
 }
 
+.heading-title {
+  margin-left: 3vw;
+}
+
 .navbar-wrapper {
-  background-color: blue;
   width: 50%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-items {
+  height: 100%;
+  width: 80%;
+
+  display: flex;
+}
+
+.navbar-item {
+  list-style: none;
+  height: 100%;
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+}
+
+.fa-caret-right {
+  color: aquamarine;
+  margin-right: 2%;
 }
 
 /* ヘッダー部分ここまで */
