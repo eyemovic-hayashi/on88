@@ -71,3 +71,24 @@ header {
   justify-content: center;
 }
 /* スライダー部分ここまで */
+
+/* お知らせ部分 */
+.notice-wrapper {
+  height: 40vh;
+  width: 100vw;
+}
+
+.notice-heading {
+  height: 20%;
+  background-color: blue;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notice-container {
+  height: 80%;
+  background-color: yellow;
+}
+/* お知らせ部分ここまで */
