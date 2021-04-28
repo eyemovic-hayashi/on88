@@ -7,24 +7,33 @@ li {
 }
 
 .footer {
-  border: 1px solid;
+  // フッター下部固定最後に装飾
+  border: rosybrown solid 1px;
   &_menu-items {
-    border: solid 1px;
-    background-color: rgba(118, 248, 198, 0.562);
+    background-color: rgba(26, 201, 3, 0.527);
+    height: 40px;
     & ul {
       display: flex;
+      line-height: 40px;
       color: white;
+      & li {
+        margin-left: 20px;
+      }
     }
   }
   &_address {
-    border-bottom: solid 5px rgba(118, 248, 198, 0.562);
+    height: 80px;
+    border-bottom: solid 5px rgba(26, 201, 3, 0.527);
     display: flex;
     justify-content: flex-end;
+    line-height: 80px;
     & p {
       margin-left: 25px;
     }
   }
   &_bottom {
+    height: 70px;
     text-align: center;
+    line-height: 70px;
   }
 }
