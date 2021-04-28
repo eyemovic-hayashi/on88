@@ -47,3 +47,12 @@ header {
 }
 
 /* ヘッダー部分ここまで */
+
+
+/* スライダー部分 */
+.slider-wrapper {
+  background-color: blueviolet;
+  height: 50vh;
+  width: 100vw;
+}
+/* スライダー部分ここまで */
