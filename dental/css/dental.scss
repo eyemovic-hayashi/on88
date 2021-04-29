@@ -5,10 +5,71 @@
 // ヘッダー浦山記述中
 .header{
   .header-top{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      img{
+        height: 100px;
+      }
+    }
+    .sub{
+      display: flex;
+      flex-direction: column;
+      align-items:flex-end;
+      justify-content: space-around;
 
+      p{
+        margin: 10px;
+      }
+      &-tel{
+        font-size: 40px;
+      }
+      &-time{
+        border: 1px solid black;
+        padding: 10px 30px;
+        
+        span{
+          color:brown;
+        }
+      }
+    }
   }
 
-  .header-menu-bar{}
+  .header-menu-bar{
+    background-color: rgba(26, 201, 3, 0.527);
+    border-radius: 20px;
+    border: 1px solid rgba(19, 145, 3, 0.527);
+    margin: 20px 0;
+    ul{
+      display: flex;
+      justify-content: space-around;
+      
+      li{
+        height: 100px;
+        list-style: none;
+        color: white;
+        width: 20%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        &:not(:last-child){
+          border-right:2px solid rgba(19, 145, 3, 0.527);
+        }
+
+        div{
+          .ja{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
 }
 
 
