@@ -6,6 +6,29 @@ li {
   list-style: none;
 }
 
+.main_container {
+  display: flex;
+}
+.main_container .side-bar {
+  width: 400px;
+  height: 1000px;
+  border: aqua 2px solid;
+}
+.main_container .main-contents {
+  width: calc(100% - 400px);
+  height: 1000px;
+  margin-left: 80px;
+}
+.main_container .main-contents .contents-image {
+  width: 100%;
+  height: 300px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+.main_container .main-contents .contents-news {
+  border: brown 1px solid;
+}
+
 .footer {
   border: rosybrown solid 1px;
 }

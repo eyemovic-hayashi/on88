@@ -6,6 +6,34 @@ li {
   list-style: none;
 }
 
+// main-container css
+.main {
+  &_container {
+    display: flex;
+    .side-bar {
+      // 枠作り
+      width: 400px;
+      height: 1000px;
+      border: aqua 2px solid;
+    }
+    .main-contents {
+      width: calc(100% - 400px);
+      height: 1000px;
+      margin-left: 80px;
+      .contents-image {
+        width: 100%;
+        height: 300px;
+        border: 1px solid blue;
+        margin-bottom: 10px;
+      }
+      .contents-news {
+        border: brown 1px solid;
+      }
+    }
+  }
+}
+
+// footer css
 .footer {
   // フッター下部固定最後に装飾
   border: rosybrown solid 1px;
