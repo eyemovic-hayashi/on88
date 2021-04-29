@@ -8,8 +8,89 @@
 <!-- css読み込み -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/abcd.css">
+<!-- swiper slider読み込み -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 </head>
 <body>
+    <header>
+      <div class="heading">
+        <h1 class="heading-title">ABCD Corporation</h1>
+      </div>
+      <div class="navbar-wrapper">
+        <ul class="navbar-items">
+            <li class="navbar-item"><i class="fas fa-caret-right"></i>会社概要</li>
+            <li class="navbar-item"><i class="fas fa-caret-right"></i>事業紹介</li>
+            <li class="navbar-item"><i class="fas fa-caret-right"></i>採用情報</li>
+            <li class="navbar-item"><i class="fas fa-caret-right"></i>お問い合わせ</li>
+        </ul>
+      </div>
+    </header>
 
+    <!-- スライダー部分 -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/61JQ8UaCTEL._AC_SX466_.jpg"></div>
+        <div class="swiper-slide"><img src="https://s.skygate.co.jp/sp/sa_city/oversea/images/pw/pw_img_k04_01.jpg"></div>
+        <div class="swiper-slide"><img src="https://media-assets.aumo.jp/uploads/photo/upload_photo/data/237387/large_99d22f66-fa64-44cc-8747-7159844d6638.jpeg"></div> -->
+        <div class="swiper-slide">Visual01</div>
+        <div class="swiper-slide">Visual02</div>
+        <div class="swiper-slide">Visual03</div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- スライダー部分ここまで -->
+
+    <!-- お知らせ部分 -->
+    <div class="notice-wrapper">
+        <h2 class="notice-heading">お知らせ</h2>
+        <div class="notice-container-wrapper">
+          <div class="notice-container">
+            <div class="notice-item">
+              <div class="notice-date">2021年10月20日</div>
+              <div class="notice-category category-news">NEWS</div>
+              <div class="notice-content">テキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+            <div class="notice-item">
+              <div class="notice-date">2021年04月08日</div>
+              <div class="notice-category category-product">PRODUCT</div>
+              <div class="notice-content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+            <div class="notice-item">
+              <div class="notice-date">2021年12月10日</div>
+              <div class="notice-category category-news">NEWS</div>
+              <div class="notice-content">テキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+            <div class="notice-item">
+              <div class="notice-date">2021年05月01日</div>
+              <div class="notice-category category-product">PRODUCT</div>
+              <div class="notice-content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- お知らせ部分ここまで -->
+    
+
+    <!-- swiper-slider用のスクリプト -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        cssMode: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination'
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
 </body>
 </html>

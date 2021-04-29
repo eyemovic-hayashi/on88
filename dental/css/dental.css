@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .header .header-top .logo {
   display: flex;
   flex-direction: column;
@@ -66,24 +67,32 @@ li {
 }
 
 .footer {
-  border: 1px solid;
+  border: rosybrown solid 1px;
 }
 .footer_menu-items {
-  border: solid 1px;
-  background-color: rgba(118, 248, 198, 0.562);
+  background-color: rgba(26, 201, 3, 0.527);
+  height: 40px;
 }
 .footer_menu-items ul {
   display: flex;
+  line-height: 40px;
   color: white;
 }
+.footer_menu-items ul li {
+  margin-left: 20px;
+}
 .footer_address {
-  border-bottom: solid 5px rgba(118, 248, 198, 0.562);
+  height: 80px;
+  border-bottom: solid 5px rgba(26, 201, 3, 0.527);
   display: flex;
   justify-content: flex-end;
+  line-height: 80px;
 }
 .footer_address p {
   margin-left: 25px;
 }
 .footer_bottom {
+  height: 70px;
   text-align: center;
+  line-height: 70px;
 }
