@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .header .header-top .logo {
   display: flex;
   flex-direction: column;
@@ -60,6 +59,31 @@
 }
 .header .header-menu-bar ul li div .ja {
   font-size: 20px;
+}
+
+.aaa {
+  display: flex;
+}
+.aaa .side-bar {
+  width: 30%;
+}
+.aaa .main-container {
+  width: 70%;
+  background-color: chocolate;
+}
+
+.general-menu {
+  font-size: 20px;
+  margin: 20px 20px 0 0;
+  padding: 10px;
+}
+.general-menu p {
+  border: 1px solid rgba(19, 145, 3, 0.527);
+  border-radius: 20px 20px 0 0;
+  background-color: rgba(26, 201, 3, 0.527);
+}
+.general-menu ul .side-bar-list {
+  border-bottom: 1px solid rgba(19, 145, 3, 0.527);
 }
 
 li {
