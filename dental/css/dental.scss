@@ -15,13 +15,11 @@ body {
 // main-container css
 .main {
   &_container {
-    border: 3px solid tomato;
     display: flex;
     .side-bar {
       // 枠作り
       width: 400px;
       height: 1000px;
-      border: aqua 2px solid;
     }
     .main-contents {
       width: calc(100% - 400px);
@@ -30,8 +28,12 @@ body {
       .image-container {
         width: 100%;
         height: 300px;
-        border: 1px solid blue;
         margin-bottom: 10px;
+        img {
+          max-height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
       }
       .a {
         background-color: white;
