@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-// ヘッダー浦山記述中
+// ヘッダー浦山記述↓
 .header{
   .header-top{
     display: flex;
@@ -13,7 +13,7 @@
       justify-content: center;
       align-items: flex-start;
       img{
-        height: 100px;
+        height: 70px;
       }
     }
     .sub{
@@ -39,7 +39,7 @@
     }
   }
 
-  .header-menu-bar{
+  .header-nav-bar{
     background-color: rgba(26, 201, 3, 0.527);
     border-radius: 20px;
     border: 1px solid rgba(19, 145, 3, 0.527);
@@ -71,6 +71,56 @@
     }
   }
 }
+// ヘッダーここまで
+
+.aaa{
+  display: flex;
+  .side-bar{
+    width: 30%;
+  }
+
+  .main-container{
+    width: 70%;
+    background-color: chocolate;
+  }
+}
+
+// サイドバー浦山記述↓
+@mixin menu-style{
+  font-size: 20px;
+  margin: 0 20px 20px 0;
+  .menu-contents{
+    // background-color: crimson;
+    padding-bottom: 20px;
+    border: 1px solid rgba(19, 145, 3, 0.527);
+    border-radius: 10px 10px 0 0;
+    
+    p{
+      // border: 1px solid rgba(19, 145, 3, 0.527);
+      border-radius: 10px 10px 0 0;
+      background-color: rgba(26, 201, 3, 0.527);
+      color: white;
+      padding: 15px;
+    }
+    ul{
+      .side-bar-list{
+        border-bottom: 1px solid rgba(19, 145, 3, 0.527);
+        margin: 10px;
+        padding:10px;
+      }
+    }
+  }
+}
+
+.general-menu{
+  @include menu-style;
+}
+
+.cosmetic-menu{
+  @include menu-style;
+}
+
+// サイドバーここまで
 
 
 

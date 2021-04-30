@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .header .header-top .logo {
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@
   align-items: flex-start;
 }
 .header .header-top .logo img {
-  height: 100px;
+  height: 70px;
 }
 .header .header-top .sub {
   display: flex;
@@ -35,17 +34,17 @@
 .header .header-top .sub-time span {
   color: brown;
 }
-.header .header-menu-bar {
+.header .header-nav-bar {
   background-color: rgba(26, 201, 3, 0.527);
   border-radius: 20px;
   border: 1px solid rgba(19, 145, 3, 0.527);
   margin: 20px 0;
 }
-.header .header-menu-bar ul {
+.header .header-nav-bar ul {
   display: flex;
   justify-content: space-around;
 }
-.header .header-menu-bar ul li {
+.header .header-nav-bar ul li {
   height: 100px;
   list-style: none;
   color: white;
@@ -55,11 +54,64 @@
   justify-content: center;
   align-items: center;
 }
-.header .header-menu-bar ul li:not(:last-child) {
+.header .header-nav-bar ul li:not(:last-child) {
   border-right: 2px solid rgba(19, 145, 3, 0.527);
 }
-.header .header-menu-bar ul li div .ja {
+.header .header-nav-bar ul li div .ja {
   font-size: 20px;
+}
+
+.aaa {
+  display: flex;
+}
+.aaa .side-bar {
+  width: 30%;
+}
+.aaa .main-container {
+  width: 70%;
+  background-color: chocolate;
+}
+
+.general-menu {
+  font-size: 20px;
+  margin: 0 20px 20px 0;
+}
+.general-menu .menu-contents {
+  padding-bottom: 20px;
+  border: 1px solid rgba(19, 145, 3, 0.527);
+  border-radius: 10px 10px 0 0;
+}
+.general-menu .menu-contents p {
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(26, 201, 3, 0.527);
+  color: white;
+  padding: 15px;
+}
+.general-menu .menu-contents ul .side-bar-list {
+  border-bottom: 1px solid rgba(19, 145, 3, 0.527);
+  margin: 10px;
+  padding: 10px;
+}
+
+.cosmetic-menu {
+  font-size: 20px;
+  margin: 0 20px 20px 0;
+}
+.cosmetic-menu .menu-contents {
+  padding-bottom: 20px;
+  border: 1px solid rgba(19, 145, 3, 0.527);
+  border-radius: 10px 10px 0 0;
+}
+.cosmetic-menu .menu-contents p {
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(26, 201, 3, 0.527);
+  color: white;
+  padding: 15px;
+}
+.cosmetic-menu .menu-contents ul .side-bar-list {
+  border-bottom: 1px solid rgba(19, 145, 3, 0.527);
+  margin: 10px;
+  padding: 10px;
 }
 
 li {
