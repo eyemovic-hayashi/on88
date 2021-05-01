@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-// ヘッダー浦山記述↓
+// ヘッダー浦山記述 ▼
 .header{
   .header-top{
     display: flex;
@@ -85,7 +85,7 @@
   }
 }
 
-// サイドバー浦山記述↓
+// サイドバー浦山記述 ▼
 @mixin menu-style{
   font-size: 20px;
   margin: 0 20px 20px 0;
@@ -94,6 +94,7 @@
     padding-bottom: 20px;
     border: 1px solid rgba(19, 145, 3, 0.527);
     border-radius: 10px 10px 0 0;
+    background-color: white;
     
     p{
       // border: 1px solid rgba(19, 145, 3, 0.527);

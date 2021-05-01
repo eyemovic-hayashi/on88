@@ -80,6 +80,7 @@
   padding-bottom: 20px;
   border: 1px solid rgba(19, 145, 3, 0.527);
   border-radius: 10px 10px 0 0;
+  background-color: white;
 }
 .general-menu .menu-contents p {
   border-radius: 10px 10px 0 0;
@@ -101,6 +102,7 @@
   padding-bottom: 20px;
   border: 1px solid rgba(19, 145, 3, 0.527);
   border-radius: 10px 10px 0 0;
+  background-color: white;
 }
 .cosmetic-menu .menu-contents p {
   border-radius: 10px 10px 0 0;
